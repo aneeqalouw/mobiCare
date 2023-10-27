@@ -5,3 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    background: url("https://i.postimg.cc/T1LLHGvT/bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+ul li {
+    padding: 38px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+ul li:hover{
+    color: red;
+    text-decoration: underline solid black;
+}
